@@ -1,0 +1,12 @@
+yum install nginx
+systemctl start nginx.service
+systemctl enable nginx.service
+
+yum install https://centos7.iuscommunity.org/ius-release.rpm -y 
+yum install python36u  -y
+yum install python36u-pip python36u-devel  -y
+cd /home/
+mkdir django
+cd django
+python3.6 -m venv venv
+deactivate ÍË³öĞéÄâ»·¾³
